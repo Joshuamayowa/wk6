@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image{
+    /* background-color: green; */
+    background-image: url(../image/gold.jpg);
+
+}
