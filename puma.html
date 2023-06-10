@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Puma Landing Page</title>
     <link rel="stylesheet" href="./dist/output.css">
-    <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">  
 </head>
 <body>
    <nav class="bg-gray-900 h-20 grid grid-cols-2 fixed inset-x-0">
@@ -19,7 +19,8 @@
         <li class="hover:text-gray-400 hover:border-b-2 hover:border-orange-500"><a href="#"></a>Sports</li>
         <li class="hover:text-gray-400 hover:border-b-2 hover:border-orange-500"><a href="#"></a>Sales</li>
     </ul>
-    <ul class="flex flex-row-reverse space-x-2 items-center text-white">
+    
+    <ul class="flex flex-row-reverse space-x-4 items-center text-white">
       <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
         <path stroke-linecap="round" stroke-linejoin="round" d="M19 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zM4 19.235v-.11a6.375 6.375 0 0112.75 0v.109A12.318 12.318 0 0110.374 21c-2.331 0-4.512-.645-6.374-1.766z" />
       </svg>
@@ -32,6 +33,13 @@
         <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
       </svg>
       </a></li>
+      <li class="grid grid-cols-1 items-center border-r-2 border-l-2 border-t-2 border-b-2" > <a href="#"><input placeholder="search puma.com" class="outline-none"> 
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+        </svg>
+       
+      </a>
+       </li>
     </ul>
     
    </nav> 
@@ -39,96 +47,145 @@
 
    </div>
    <div class="bg-[url(../image/pumaimage.webp)] h-80">
-    <ul class="py-24 px-24">
-      <li class="text-white uppercase font-bold h-100% text-5xl">track meet</li>
-      <li class="capitalize text-white text-2xl py-2 h-9">track-inspired style</li>
-      <li class="text-black text-1xl font-bold py-6"><button class="uppercase bg-white py-2 px-1">shop app</button></li>
-     </ul>
+    <h2 class="py-24 px-24">
+      <p class="text-white uppercase font-bold h-100% text-5xl">track meet</p>
+      <p class="capitalize text-white text-2xl py-2 h-9">track-inspired style</p>
+      <p class="text-black text-1xl font-bold py-6"><button class=" hover:bg-slate-800 uppercase bg-white py-2 px-1">shop app</button></p>
+     </h2>
    </div>
    <div >
     <p class="uppercase font-bold text-2xl py-3">shop the collections</p>
-    <nav class="flex flex-row">
+    <div class="grid grid-cols-4">
       <p class="capitalize font-bold px-2"> <img src="./image/Track-Meet-T7-Track-Jacket-Men.webp" alt="track suit" height="100%" width="100%"> track meet t7 track jacket <span>&#8358; 91,150</span></p>
       <p class="capitalize font-bold px-2"> <img src="./image/Track-Meet-Shorts-Men.webp" alt="trak sports" height="100%" width="100%">track meet shorts men <span>&#8358; 54,700</span></p>
       <p class="capitalize font-bold px-2"> <img src="./image/Track-Meet-Shorts-Men (1).webp" alt="track meet short" height="100%" width="100%">track meet shorts men <span>&#8358; 54,700</span></p>
       <p class="capitalize font-bold px-2"> <img src="./image/Fast-Track-Portable-Bag.jpg" alt="portable bag" height="100%">Fast Track Portable Bag <span>&#8358; 58,350</span</p>
-    </nav>
     </div>
     <div class="bg-[url(../image/background.webp)] h-100%">
-      <ul class="py-24 px-24 text-center">
-        <li class="uppercase font-bold h-9 text-5xl"> luxe sport</li>
-        <li class=" capitalize text-2xl py-2 h-9">beyond classics</li>
-        <li class="text-back py-6 font-bold text-1xl"> <button class="uppercase py-2 px-2 text-white">shop now</button></li>
-      </ul>
+      <h2 class="py-24 px-24 text-center">
+        <p class="uppercase font-bold h-9 text-5xl"> luxe sport</p>
+        <p class=" capitalize text-2xl py-2 h-9">beyond classics</p>
+        <p class="text-back py-6 font-bold text-1xl"> <button class="uppercase py-2 px-2 text-white hover:bg-slate-800">shop now</button></p>
+      </h2>
     </div>
     <div>
       <p class="uppercase py-3 font-bold text-2xl">explore more</p>
-      <nav class="flex flex-row">
+      <div class="flex flex-row">
         <p class="font-bold capitalize px-2"> <img src="./image/LUXE-SPORT-Gilet.webp" alt="LUXE-SPORT-Gilet" height="100%">LUXE SPORT Gilet <span>&#8358; 65,650</span></p>
         <p class="font-bold capitalize px-2"> <img src="./image/Luxe-Sport-Velophasis-Sneakers.webp" alt="sneakers" height="100%">Luxe Sport Velophasis Sneakers<span>&#8358; 109,400</span></p>
         <p class="font-bold capitalize px-2"> <img src="./image/LUXE-SPORT-T7-Printed-Jacket-Men.webp" alt="black" height="100%">LUXE SPORT T7 Printed Jacket Men <span>&#8358; 109,400</span></p>
         <p class="font-bold capitalize px-2"> <img src="./image/Luxe-Sport-Velophasis-Sneakersg.webp" alt="sneakers" height="100%">Luxe Sport Velophasis Sneakers <span>&#8358; 109,400</span></p>
-      </nav>
+      </div>
     </div>
     <div>
-      <p class="text-bold uppercase text-center text-2xl py-4"> trendiing now</p>
-      <nav class="flex flex-row">
+      <p class="font-bold uppercase text-center text-4xl py-4"> trending now</p>
+      <div class="grid grid-cols-3">
 
         <h2 class="pl-4 text-center font-bold capitalize"> <img src="./image/png (1).jpg" alt="track suit" height="100%" width="100%" > 
-          <ul class="pt-5">
-          <li class="uppercase font-bold text-2xl">mayze steak</li>
-          <li class="text-sm font-thin">worn by due lips</li>
-          <li class="text-white pt-2"> <button class="bg-black py- px-2 uppercase"> shop now</button></li>
-        </ul>
+          <p class="pt-5">
+          <p class="uppercase font-bold text-2xl">mayze steak</p>
+          <p class="text-sm font-thin">worn by due lips</p>
+          <p class="text-white pt-2"> <button class="bg-black py-2 px-2 uppercase hover:bg-slate-800"> shop now</button></p>
+        </p>
       </h2>
       <h2 class="text-center font-bold capitalize"> <img src="./image/png.jpg" alt="sneaker" height="100%" width="100%">
-        <ul class="pt-5">
-        <li class="uppercase font-bold text-2xl">cali dream</li>
-        <li class="text-sm font-thin">bold and creamy</li>
-        <li class="text-white pt-2"> <button class="bg-black py- px-2 uppercase"> shop now</button>></li>
-      </ul>
+        <p class="pt-5">
+        <p class="uppercase font-bold text-2xl">cali dream</p>
+        <p class="text-sm font-thin">bold and creamy</p>
+        <p class="text-white pt-2"> <button class="bg-black py-2 px-2 uppercase hover:bg-slate-800"> shop now</button>></p>
+        </p>
       </h2>
       <h2 class="text-center font-bold capitalize pr-4"> <img src="./image/png2.webp" alt="printed jacket" height="100%" width="100%">
-        <ul class="pt-5">
-          <li class="uppercase font-bold text-2xl">puma x bmw motorsport</li>
-          <li class="text-sm font-thin">forever a rebel</li>
-          <li class="text-white pt-2"> <button class="bg-black py- px-2 uppercase"> shop now</button>></li>
-        </ul>
+        <p class="pt-5">
+          <p class="uppercase font-bold text-2xl">puma x bmw motorsport</p>
+          <p class="text-sm font-thin">forever a rebel</p>
+          <p class="text-white pt-2"> <button class="bg-black py-2 px-2 uppercase hover:bg-slate-800"> shop now</button>></p>
+        </p>
         </h2>
-      </nav>
+      </div>
     </div>
     <div>
-      <p class="text-bold text-2xl uppercase pt-16 pb-5 text-center">shopping for someone?</p>
-      <nav class="flex flex-row">
+      <p class="font-bold text-2xl uppercase pt-16 pb-5 text-center">shopping for someone?</p>
+      <div class="flex flex-row text-center">
         <h2 class="font-bold capitalize pl-4  text-center"><img src="./image/png3.jpg" alt="women" height="100%" width="100%">
-        <ul class="pt-5">
-          <li class="text-2xl uppercase font-bold">women's</li>
-          <li class="text-white pt-2"><button class="bg-black uppercase py-2 px-2">shop now</button></li>
-        </ul>
+        <p class="pt-5">
+          <p class="text-2xl uppercase font-bold">women's</p>
+          <p class="text-white pt-2"><button class="bg-black uppercase py-2 px-2 hover:bg-slate-800">shop now</button></p>
+        </p>
         </h2>
-        <h2 class="font-bold capitalize text-cen"><img src="./image/png4.webp" alt="men" height="100%" width="100%">
-        <ul class="pt-5">
-          <li class="font-bold uppercase text-2xl">men's</li>
-          <li class="text-white pt-2"><button class="bg-black uppercase py-2 px-2">shop now</button></li>
-        </ul>
+        <h2 class="font-bold capitalize text-center"><img src="./image/png4.webp" alt="men" height="100%" width="100%">
+        <p class="pt-5">
+          <p class="font-bold uppercase text-2xl">men's</p>
+          <p class="text-white pt-2"><button class="bg-black uppercase py-2 px-2 hover:bg-slate-800">shop now</button></p>
+        </p>
         </h2>
-    <h2 class="font-bold capitalize text-cen"><img src="./image/png5.jpg" alt="kids" height="100%" width="100%">
-        <ul class="pt-5">
-          <li class="font-bold uppercase text-2xl">kids</li>
-          <li class="text-white pt-2"><button class="bg-black uppercase py-2 px-2">shop now</button></li>
-        </ul>
+    <h2 class="font-bold capitalize text-center"><img src="./image/png5.jpg" alt="kids" height="100%" width="100%">
+        <p class="pt-5">
+          <p class="font-bold uppercase text-2xl">kids</p>
+          <p class="text-white pt-2"><button class="bg-black uppercase py-2 px-2 hover:bg-slate-800">shop now</button></p>
+        </p>
         </h2>
       </nav>
     </div>
     <div class="pt-12 pl-10">
       <p class="font-bold uppercase text-2xl py-3"> best sellers you may like</p>
-      <nav class="flex flex-row">
+      <div class="flex flex-row">
         <p class="font-bold capitalize px-2 pb-10"><img src="./image/Slipstream-Sneakers.webp" alt="slipstream">Slipstream-Sneakers <span>>&#8358; 59,750</span></p>
         <p class="font-bold capitalize px-2 pb-10"><img src="./image/Players'-Lounge-Polo-Shirt-Men.webp" alt="players">Players' Lounge Polo Shirt Men <span>&#8358; 56,300</span></p>
         <p class="font-bold capitalize px-2 pb-10"><img src="./image/Mayze-Stack-Retro-Grade-Sneakers-Women.webp" alt="retro">Mayze Stack Retro Grade Sneakers Women <span>&#8358; 71,900</span></p>
         <p class="font-bold capitalize px-2 pb-10"> <img src="./image/MMQ-Tee.webp" alt="MMQ-tee">MMQ-Tee</p>
-      </nav>
+      </div>
     </div>
+    <footer class="bg-black h-screen">
+      <div class="flex px-10 pb-15 py-20"><img src="./image/logo-removebg-preview.png" alt="puma" class="w-12">
+      </div>
+      <div class="flex flex-row">
+      <div class="border-t-4 border-spacing-x-5 border-white">
 
+        <div class="flex flex-row">
+          <div class="flex flex-col">
+          <h2 class=" text-white capitalize py-5 px-10">support</h2>
+          <ul class="py-2 px-10 text-slate-300">
+            <li class="capitalize  hover:text-white"> <a href="#">contact us</a></li>
+            <li class="uppercase  hover:text-white"><a href="#">faq</a></li>
+            <li class="capitalize  hover:text-white"><a href="#">my profile</a></li>
+            <li class="capitalize hover:text-white"><a href="#">delivery</a></li>
+            <li class="capitalize hover:text-white"><a href="#">find a store</a></li>
+          </ul>
+        </div>
+          <ul  class="py-20 px-10 text-slate-300">
+            <li class="capitalize hover:text-white"><a href="#">return policy</a></li>
+            <li class="capitalize hover:text-white"><a href="#">privacy policy</a></li>
+            <li class="capitalize hover:text-white"><a href="#">terms of use</a></li>
+            <li class="capitalize hover:text-white"><a href="#">terms of sale</a></li>
+            <li class="capitalize hover:text-white"><a href="#">*promotions & sales</a></li>
+            <li class="capitalize hover:text-white"><a href="#">become an affilicate partner</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t-4 border-spacing-10 border-white space-x-1">
+        <div class="flex flex-row">
+          <div class="flex flex-col">
+            <h2 class="text-white capitalize py-5 px-10">about puma</h2>
+            <ul  class="py-2 px-10 text-slate-300">
+              <li class="capitalize hover:text-white"><a href="#">comapany</a></li>
+              <li class="capitalize hover:text-white"><a href="#">cooperate news</a></li>
+              <li class="capitalize hover:text-white"><a href="#">press centre</a></li>
+            </ul>
+          </div>
+            <ul class="py-20 px-10 text-slate-300">
+              <li class="capitalize hover:text-white"><a href="#"> investors</a></li>
+              <li class="capitalize hover:text-white"><a href="#"> sustainability</a></li>
+              <li class="capitalize hover:text-white"><a href="#">career</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2 class="text-white ">Sign up and get 20% off your first order</h2>
+      <p class="text-white uppercase bg-yellow-800 border-b-4 py-5"> <a href="#">sign up for newsletter</a></p>
+      <p class="text-white">more inspiration</p>
+    </div>
+    </footer>
 </body>
 </html>
